@@ -1,0 +1,57 @@
+{
+    "English": [
+        {"name": "vosk-model-small-en-us-0.15", "size": "40M", "desc": "Lightweight wideband model for Android and RPi.", "url_name": "vosk-model-small-en-us-0.15"},
+        {"name": "vosk-model-en-us-0.22", "size": "1.8G", "desc": "Accurate generic US English model.", "url_name": "vosk-model-en-us-0.22"},
+        {"name": "vosk-model-en-us-0.22-lgraph", "size": "128M", "desc": "Big US English model with dynamic graph.", "url_name": "vosk-model-en-us-0.22-lgraph"},
+        {"name": "vosk-model-en-us-0.42-gigaspeech", "size": "2.3G", "desc": "Accurate generic model for podcasts, not telephony.", "url_name": "vosk-model-en-us-0.42-gigaspeech"}
+    ],
+    "English (Other)": [
+        {"name": "vosk-model-en-us-daanzu-20200905", "size": "1.0G", "desc": "Wideband model for dictation.", "url_name": "vosk-model-en-us-daanzu-20200905"},
+        {"name": "vosk-model-en-us-daanzu-20200905-lgraph", "size": "129M", "desc": "Wideband model for dictation with configurable graph.", "url_name": "vosk-model-en-us-daanzu-20200905-lgraph"}
+    ],
+    "Indian English": [
+        {"name": "vosk-model-en-in-0.5", "size": "1G", "desc": "Generic Indian English model for telecom and broadcast.", "url_name": "vosk-model-en-in-0.5"},
+        {"name": "vosk-model-small-en-in-0.4", "size": "36M", "desc": "Lightweight Indian English model for mobile.", "url_name": "vosk-model-small-en-in-0.4"}
+    ],
+    "Chinese": [
+        {"name": "vosk-model-small-cn-0.22", "size": "42M", "desc": "Lightweight model for Android and RPi.", "url_name": "vosk-model-small-cn-0.22"},
+        {"name": "vosk-model-cn-0.22", "size": "1.3G", "desc": "Big generic Chinese model for server processing.", "url_name": "vosk-model-cn-0.22"}
+    ],
+    "Russian": [
+        {"name": "vosk-model-small-ru-0.22", "size": "45M", "desc": "Lightweight wideband model for Android/iOS and RPi.", "url_name": "vosk-model-small-ru-0.22"},
+        {"name": "vosk-model-ru-0.42", "size": "1.8G", "desc": "Big mixed band Russian model for servers.", "url_name": "vosk-model-ru-0.42"}
+    ],
+    "French": [
+        {"name": "vosk-model-small-fr-0.22", "size": "41M", "desc": "Lightweight wideband model for Android/iOS and RPi.", "url_name": "vosk-model-small-fr-0.22"},
+        {"name": "vosk-model-fr-0.22", "size": "1.4G", "desc": "Big accurate model for servers.", "url_name": "vosk-model-fr-0.22"}
+    ],
+    "German": [
+        {"name": "vosk-model-small-de-0.15", "size": "45M", "desc": "Lightweight wideband model for Android and RPi.", "url_name": "vosk-model-small-de-0.15"},
+        {"name": "vosk-model-de-0.21", "size": "1.9G", "desc": "Big German model for telephony and server.", "url_name": "vosk-model-de-0.21"}
+    ],
+    "Spanish": [
+        {"name": "vosk-model-small-es-0.42", "size": "39M", "desc": "Lightweight wideband model for Android and RPi.", "url_name": "vosk-model-small-es-0.42"},
+        {"name": "vosk-model-es-0.42", "size": "1.4G", "desc": "Big model for Spanish.", "url_name": "vosk-model-es-0.42"}
+    ],
+    "Portuguese": [
+        {"name": "vosk-model-small-pt-0.3", "size": "31M", "desc": "Lightweight wideband model for Android and RPi.", "url_name": "vosk-model-small-pt-0.3"}
+    ],
+    "Vietnamese": [
+        {"name": "vosk-model-small-vn-0.4", "size": "32M", "desc": "Lightweight Vietnamese model.", "url_name": "vosk-model-small-vn-0.4"}
+    ],
+    "Italian": [
+        {"name": "vosk-model-small-it-0.22", "size": "48M", "desc": "Lightweight model for Android and RPi.", "url_name": "vosk-model-small-it-0.22"},
+        {"name": "vosk-model-it-0.22", "size": "1.2G", "desc": "Big generic Italian model for servers.", "url_name": "vosk-model-it-0.22"}
+    ],
+    "Dutch": [
+        {"name": "vosk-model-small-nl-0.22", "size": "39M", "desc": "Lightweight model for Dutch.", "url_name": "vosk-model-small-nl-0.22"}
+    ],
+    "Japanese": [
+        {"name": "vosk-model-small-ja-0.22", "size": "48M", "desc": "Lightweight wideband model for Japanese.", "url_name": "vosk-model-small-ja-0.22"},
+        {"name": "vosk-model-ja-0.22", "size": "1Gb", "desc": "Big model for Japanese.", "url_name": "vosk-model-ja-0.22"}
+    ],
+    "Hindi": [
+        {"name": "vosk-model-small-hi-0.22", "size": "42M", "desc": "Lightweight model for Hindi.", "url_name": "vosk-model-small-hi-0.22"},
+        {"name": "vosk-model-hi-0.22", "size": "1.5Gb", "desc": "Big accurate model for servers.", "url_name": "vosk-model-hi-0.22"}
+    ]
+}

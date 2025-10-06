@@ -1,0 +1,16 @@
+PyQt5
+pyyaml
+opensimplex
+ollama
+requests
+pyaudio
+numpy
+vosk
+pyautogui
+python-dateutil
+asteval
+pint
+comtypes
+pycaw
+screen-brightness-control
+pywin32

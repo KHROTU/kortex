@@ -1,0 +1,41 @@
+# Rename this file to config.yaml and fill in your details.
+
+# The name of the model to use from your local Ollama instance.
+ollama_model: granite4:micro
+
+# Path to the downloaded Vosk model for Speech-to-Text.
+stt_model_path: models/vosk-model-en-us-0.22-lgraph
+
+# Text-to-Speech settings using Piper.
+tts:
+  # The friendly name of the default voice to use (must match a key under 'voices').
+  default_voice: american
+  # Path to the Piper executable.
+  piper_path: tools/piper/piper.exe
+  # A dictionary of installed voices. Add new voices here after downloading them via the settings UI.
+  voices:
+    american: tools/piper/en_US-lessac-medium.onnx
+    british: tools/piper/en_GB-cori-medium.onnx
+
+# List of wake words that activate the assistant.
+wake_words:
+- cortex
+- hey cortex
+
+# Configuration for external web services, can be changed from settings.
+services:
+  weather:
+    enabled: true
+    api_key: FOO_API_KEY
+  currency_conversion:
+    enabled: true
+    api_key: FOO_API_KEY
+  location:
+    enabled: true
+    iplocate_api_key: FOO_API_KEY
+  email:
+    enabled: false
+    email_address: myemail@example.com
+    app_password: FOO_APP_PASSWORD
+    smtp_server: smtp.example.com
+    smtp_port: 587
